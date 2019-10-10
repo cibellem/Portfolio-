@@ -47,6 +47,7 @@ ul.nav, li {
 }
 ul.nav {
     float: right;
+    margin-right: 180px; 
     
 }
 li a {  
@@ -54,9 +55,13 @@ li a {
     text-decoration: none;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;; 
-    padding: 8px;     
-      
+    padding: 8px;              
 }
+nav.last-child {
+    border-right: none;
+}
+
+
 section.content{
     background-color:#ffffff;
     width: 960px;  
